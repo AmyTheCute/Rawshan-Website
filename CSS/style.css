@@ -61,12 +61,20 @@ nav li .active {
 }
 
 article{
+	float: right;
 	width: 800px;
-	border: 10px solid #333;
-	margin: 2.5em auto;
-	background: #BBB;
-	padding: 2em 5em;
+	margin: 4em 2.5em;
 	border-radius: 10px;
+}
+
+article h1 {
+	font-size: 40px;
+	color: green;
+	float: right;
+}
+
+article p {
+
 }
 
 article img {
