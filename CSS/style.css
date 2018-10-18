@@ -11,8 +11,13 @@ html {
     min-height: 100%;
 }
 body {
+	font-family: IRANYekan,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 	background: #F5F5F5;
+    direction: rtl;
 	margin: 0 0 100px;
+	scroll-behavior: smooth;
 }
 
 nav ul {
@@ -56,34 +61,52 @@ nav li .active {
 }
 
 #content {
-	margin-top: 10px;
-	text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    min-width: 1009px;
+    max-width: 1676px;
+
 }
 
-article{
-	float: right;
-	width: 800px;
-	margin: 4em 2.5em;
-	border-radius: 10px;
+article
+{
+    background-color: rgba(251, 52, 73, 0.6);
+	box-shadow: 0 12px 12px 0 hsla(0,0%,71%,.14);
+    line-height: 22px;
+    border: 1px solid #dedede;
+	margin: 3em auto;
+	padding: 10px 100px;
+	border-radius: 2px;
+	border: solid #E0E0E0 1px;
+}
+
+header {
+	margin: 50px 0;
 }
 
 article h1 {
+	border-top: 10px;
 	font-size: 40px;
-	color: green;
-	float: right;
+	text-align: center;
+	margin: 0px 20px 40px 0px;
 }
 
-article p {
 
+article h1, p {
+	color: white;
 }
 
 article img {
+	clear: both;
 	margin: 20px 0px;
+	float: left;	
 }
 
 
 footer {
-    background-color: orange;
     position: absolute;
     left: 0;
     bottom: 0;
